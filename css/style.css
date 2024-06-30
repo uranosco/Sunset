@@ -1,95 +1,29 @@
-/* Reset styles */
-* {
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #333;
-    line-height: 1.6;
 }
 
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo img {
-    max-width: 100px;
-    height: auto;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-}
-
-nav ul li {
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-nav ul li a:hover {
-    color: #ff7f50; /* Highlight color */
-}
-
-main {
-    padding: 2rem;
-}
-
-.hero {
     text-align: center;
-    margin-bottom: 2rem;
+    margin: 20px 0;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+h1 {
+    font-size: 2.5em;
     color: #333;
 }
 
-.hero p {
-    font-size: 1.2rem;
+p {
+    font-size: 1.2em;
     color: #666;
-    margin-bottom: 1rem;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #ff7f50; /* Sunset orange */
-    color: #fff;
-    padding: 0.8rem 1.5rem;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #e65c00; /* Darker orange on hover */
-}
-
-.image-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-}
+/* Add more CSS for specific elements as needed */
